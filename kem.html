@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Kem lót</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+        *{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    min-height: 2000px;
+    max-width: 1300px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.hmenu{
+    list-style: none;
+    background-color: palevioletred;
+}
+.hmenu>li{
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.hmenu>li>a{
+    text-decoration: none;
+    font-size: 12pt;
+    color: black;
+    display: block;
+    padding: 15px;
+}
+.hhome>.logo{
+    width: 15%;
+    height: 5px;
+    margin: 15px 0px 10px;
+    float: left;
+}
+.hhome>.logo img{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 170px;
+    float: left;
+    
+
+}
+.htop{
+    width: 100%;
+    height: 35px;
+    background-color: black;
+}
+.htop>.phone{
+    color: white;
+    float: left;
+    font-size: 25px;
+}
+.hhome{
+    width: 100%;
+    height: 135px;
+    background-color: white
+}
+.footer{
+    background-color: rosybrown;
+}
+.vmenu>.kem{
+    background-color: aqua;
+    list-style: none;
+    float: left;
+    font-size: 20px;
+}
+.col2>.float{
+    float: left;
+    list-style: none;
+    min-height: 300px;
+    width: 26%;
+    background-color: paleturquoise;
+    font-size: 15px;
+    font-variant: small-caps;
+    margin: 5px;
+    bottom: 5px;
+}
+.col2>.right{
+    
+    list-style: none;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.column{
+    width: 15%;
+    float: left;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: royalblue 5px;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham .ten{
+    font-size: x-small;
+    font-weight: bold;
+    color: black;
+}
+.san-pham .img{
+    min-width: 95px;
+}
+.san-pham .gia{
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+.column2{
+    width: 15%;
+    float: left;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: royalblue 5px;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham .ten{
+    font-size: x-small;
+    font-weight: bold;
+    color: black;
+}
+.san-pham .img{
+    min-width: 95px;
+}
+.san-pham .gia{
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+.column3{
+    width: 15%;
+    float: left;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: royalblue 5px;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham .ten{
+    font-size: x-small;
+    font-weight: bold;
+    color: black;
+}
+.san-pham .img{
+    min-width: 95px;
+}
+.san-pham .gia{
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+.column4{
+    width: 15%;
+    float: left;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: royalblue 5px;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham .ten{
+    font-size: x-small;
+    font-weight: bold;
+    color: black;
+}
+.san-pham .img{
+    min-width: 95px;
+}
+.san-pham .gia{
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+.column5{
+    width: 15%;
+    float: left;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: royalblue 5px;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham .ten{
+    font-size: x-small;
+    font-weight: bold;
+    color: black;
+}
+.san-pham .img{
+    min-width: 95px;
+}
+.san-pham .gia{
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+.column6{
+    width: 15%;
+    float: left;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: royalblue 5px;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham .ten{
+    font-size: x-small;
+    font-weight: bold;
+    color: black;
+}
+.san-pham .img{
+    min-width: 95px;
+}
+.san-pham .gia{
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+aside{
+    margin: 0 auto;
+    width: 370px;
+    min-height: 1000px;
+    background-color: rgb(247, 130, 221);
+    float: left;
+    padding: 90px;
+}
+
+article{
+    padding: 90px;
+    width: 930px;
+    min-height: 800px;
+    background-color: rgb(197, 201, 247);
+    float: right;
+
+}
+.kem{
+    font-weight: bold;
+}
+.hmenu>li:hover>a{
+    color: plum;
+}
+    </style>
+    <body>
+        <div class="container ">
+            <header>
+                <div class="htop">
+                    <div class="phone">
+                        <i class="fa fa-phone-square pred">0990909090</i> 
+                    </div>
+                </div>
+                <div class="hhome">
+                    <div class="logo">
+                        <a href="asm.html"><img src="img/logohead-min.png"></a>
+                    </div>
+                    <li id="search" class="item-cha">
+                        <form action="">
+                            <input type="text" placeholder="Search.." name="search">
+                            <label for="search"><a href="#"><i class="fas fa fa-search"></i></a></label>
+                        </form>
+                    </li>
+                    <div class="find"></div>
+                </div>
+                
+            </header>
+                <nav>
+                    <div class="menu">
+                        <ul class="hmenu">
+                            <li><a href="#">DANH MỤC SẢN PHẨM</a></li>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">THƯƠNG HIỆU</a></li>
+                            <li><a href="#">KHUYẾN MẠI</a></li>
+                            <li><a href="#">TRA CỨU ĐƠN HÀNG</a></li>
+                            <li><a href="#">KHUYẾN MÃI</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <aside>
+                    <p><b>TRANG ĐIỂM MAKEUP</b></p>
+                    <div class="trangdiemakeup">
+                    
+                    <p><a href=""> Kem lót - Makeup prmer</a></p><br>
+                    <p><a href=""> Kem nền - BB - CC</a></p><br>
+                    <p><a href="">Mascara</a></p>
+                    <p><a href="">Che khuyết điểm - Conceaier</a></p>
+                    <p><a href="">Phấn phủ - Powder</a></p>
+        
+                    </div>
+                    <p><b>THƯƠNG HIỆU</b></p>
+                    <label class="thuonghieu">
+                        <input type="radio" name="thuonghieu"> 3CE <br>
+                        <input type="radio" name="thuonghieu"> DIOR<br>
+                        <input type="radio" name="thuonghieu"> BIODERMA <br>
+                        <input type="radio" name="thuonghieu">  BLACK ROUGE
+                    </label>
+                    <p><b>MÀU SẮC</b></p>
+                    <label class="mausac">
+                        <label><input type="radio" name="gender" checked>Đỏ </label><br>
+                        <label><input type="radio" name="gender" >Vàng </label><br>
+                        <label><input type="radio" name="gender" >Xanh Ngọc </label><br>
+                        <label><input type="radio" name="gender" >Hồng Phấn </label>
+                    </label>
+                    <p><b>XUẤT XỨ</b></p>
+                    <label class="xuatxu">
+                        <input type="radio" name="xuatxu">Pháp <br>
+                        <input type="radio" name="xuatxu">Mĩ <br>
+                        <input type="radio" name="xuatxu">Việt Nam<br>
+                        <input type="radio" name="xuatxu">Trung Quốc <br>
+                        <input type="radio" name="xuatxu">Anh <br>
+                        <input type="radio" name="xuatxu">Hàn Quốc <br>
+                    </label>
+                </aside>
+                <article>
+                    <div class="kem">
+                        <p>Kem lót - Makeup prmer (12 sản phẩm)</p>
+                        <p>Loại kem này có thể xem như một lớp áo mỏng cố định tông da, che mờ bớt những khuyết điểm trên da và cố định giữ các lớp trang điểm sau lâu trôi hơn.</p>
+                    </div>
+                    <div class="shoes">
+                        <div class="Cushion">
+                        <a href="#">
+                            <img src="img/A1.jpg">
+                            <p>Kem Lót Kiềm Dầu Chống Nắng Bobbi Brown...</p>
+                            <b class="maudo">1.060.000 đ</b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="img/A2.jpg">
+                            <p>Kem Lót Bắt Sáng MAC Silverlite Màu..</p>
+                            <b class="maudo">990.000 đ</b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="img/A3.jpg">
+                            <p>Kem Lót tuýp Catrice Prime and Fine...</p>
+                            <b class="maudo">170.000 đ</b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="img/A4.jpg">
+                            <p>Kem lót Baby Skin 22ml</p>
+                            <b class="maudo">158.000 đ</b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="img/A5.jpg">
+                            <p>Kem Lót GEO xanh (Lọ)</p>
+                            <b class="maudo">225.000 đ</b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="img/A7.jpg">
+                            <p>Kem Lót Mắt Catrice</p>
+                            <b class="maudo">138.000 đ</b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="img/A8.jpg">
+                            <p>Kem lót Rimmel London Fix & Perfect...</p>
+                            <b class="maudo">145.000 đ</b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="img/A6.jpg">
+                            <p>Kem Lót The Face Shop Air Cotton Makeup...</p>
+                            <b class="maudo">95.000 đ</b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="">
+                            <p></p>
+                            <b class="maudo"></b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="">
+                            <p></p>
+                            <b class="maudo"></b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="">
+                            <p>E</p>
+                            <b class="maudo"></b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="">
+                            <p></p>
+                            <b class="maudo"></b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="">
+                            <p></p>
+                            <b class="maudo"></b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="">
+                            <p></p>
+                            <b class="maudo"></b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="">
+                            <p></p>
+                            <b class="maudo"></b>
+                        </a>
+                    </div>
+                </div>
+                    <table border="0" align="right">
+                        <a href="sanpham.html">
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>...</td>
+                            <td>10</td>
+                            <td>>>></td>
+                        </tr>
+                    </a>
+                    </table>
+
+                    </article>
+                    <footer>
+                        <div class="lienhe footer-item">
+                            <h3>
+                                HỆ THỐNG CỬA HÀNG</h3>
+                            <img src="img/F1.png">
+                            <img src="img/f2.png">
+                            <img src="img/f3.png">
+                            
+                        </div>
+                        <div class="product footer-item">
+                            <div class="product3">
+                                <p>COCO SHOP là hệ thống mỹ phẩm chính hãng và uy tín có quy mô lớn số 1 Việt Nam,đa dạng các loại mỹ phẩm đến từ các hãng nổi tiếng trên toàn thế giới,,,Đến  với COCOSHOP các bạn có quyền được yên tâm khi mua sắm cũng như được đáp ứng mọi nhu cầu về làm đẹp. Với phương châm luôn nỗ lực vì khách hàng thân yêu, COCOSHOP không ngừng cố gắng để xứng đáng là địa điểm mua săm tin cậy trong lòng các bạn trẻ
+
+                                    Trực thuộc Công ty TNHH Thương mại và đầu tư xuất nhập khẩu Việt Nam 
+                                    Địa chỉ : Số 10, ngõ 59 Hoàng Cầu, P. Ô Chợ Dừa, Q. Đống Đa, Tp. Hà Nội
+                                    Phone: +84915156485
+                                    © Bản quyền thuộc về Coco Shop - Chuỗi cửa hàng mỹ phẩm chính hãng làm đẹp. </p>
+                        </div>
+                        </div>
+                       
+                    </footer>
+    </div>
+                
+    </body>
+</html>

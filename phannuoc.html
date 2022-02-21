@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Phấn Nước</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <style>
+        *{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    min-height: 2000px;
+    max-width: 1300px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.hmenu{
+    list-style: none;
+    background-color: palevioletred;
+}
+.hmenu>li{
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.hmenu>li>a{
+    text-decoration: none;
+    font-size: 12pt;
+    color: black;
+    display: block;
+    padding: 15px;
+}
+.hhome>.logo{
+    width: 15%;
+    height: 5px;
+    margin: 15px 0px 10px;
+    float: left;
+}
+.hhome>.logo img{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 170px;
+    float: left;
+    
+
+}
+.htop{
+    width: 100%;
+    height: 35px;
+    background-color: black;
+}
+.htop>.phone{
+    color: white;
+    float: left;
+    font-size: 25px;
+}
+.hhome{
+    width: 100%;
+    height: 135px;
+    background-color: white
+}
+.footer{
+    background-color: rosybrown;
+}
+aside{
+    margin: 0 auto;
+    width: 370px;
+    min-height: 1000px;
+    background-color: rgb(247, 130, 221);
+    float: left;
+    padding: 90px;
+}
+
+article{
+    padding: 90px;
+    width: 930px;
+    min-height: 800px;
+    background-color: rgb(197, 201, 247);
+    float: right;
+
+}
+.hhome>.item-cha .search {
+    width: 50%;
+    margin-top: 90px;
+    margin-left: 70px;
+    height: 34px;
+    border: 1px solid var(--border-color);
+    text-align: right;
+    border-radius: 16px;
+    
+    }
+    .hhome>.item-cha .search input {
+    border: 0;
+    height: 30px;
+    width: 90%;
+    float: right;
+    margin-left: 15px;
+    
+    }
+    .hhome>.item-cha .search form {
+    height: 30px;
+    padding: 2px 2px;
+    
+    }
+    .hhome>.item-cha .search form label i {
+    padding: 7px 10px;
+    
+    
+    }
+    .hhome>.item-cha .search input:focus{
+    outline: none;
+    
+    }
+    .hhome li form input{
+        text-decoration: none;
+    }
+    .phannuoc{
+    font-weight: bold;
+}
+.shoes.Cushion>img{
+    width: 20%;
+    height: 150px;
+    padding: 10px;
+    margin: 5px;
+} 
+.hmenu>li:hover>a{
+    color: plum;
+}
+
+    </style>
+    <body>
+        <div class="container ">
+            <header>
+                <div class="htop">
+                    <div class="phone">
+                        <i class="fa fa-phone-square pred">0990909090</i> 
+                    </div>
+                </div>
+                <div class="hhome">
+                    <div class="logo">
+                        <a href="asm.html"><img src="img/logohead-min.png"></a>
+                    </div>
+                    <li id="search" class="item-cha">
+                        <form action="">
+                            <input type="text" placeholder="Search.." name="search">
+                            <label for="search"><a href="#"><i class="fas fa fa-search"></i></a></label>
+                        </form>
+                    </li>
+                
+                    <div class="find"></div>
+                </div>
+                
+            </header>
+                <nav>
+                    <div class="menu">
+                        <ul class="hmenu">
+                            <li><a href="#">DANH MỤC SẢN PHẨM</a></li>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">THƯƠNG HIỆU</a></li>
+                            <li><a href="#">KHUYẾN MẠI</a></li>
+                            <li><a href="#">TRA CỨU ĐƠN HÀNG</a></li>
+                            <li><a href="#">KHUYẾN MÃI</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <aside>
+                    <p><b>TRANG ĐIỂM MAKEUP</b></p>
+                    <div class="trangdiemakeup">
+                    
+                    <p><a href=""> Kem lót - Makeup prmer</a></p><br>
+                    <p><a href=""> Kem nền - BB - CC</a></p><br>
+                    <p><a href="">Mascara</a></p>
+                    <p><a href="">Che khuyết điểm - Conceaier</a></p>
+                    <p><a href="">Phấn phủ - Powder</a></p>
+        
+                    </div>
+                    <p><b>THƯƠNG HIỆU</b></p>
+                    <label class="thuonghieu">
+                        <input type="radio" name="thuonghieu"> 3CE <br>
+                        <input type="radio" name="thuonghieu"> DIOR<br>
+                        <input type="radio" name="thuonghieu"> BIODERMA <br>
+                        <input type="radio" name="thuonghieu">  BLACK ROUGE
+                    </label>
+                    <p><b>MÀU SẮC</b></p>
+                    <label class="mausac">
+                        <label><input type="radio" name="gender" checked>Đỏ </label><br>
+                        <label><input type="radio" name="gender" >Vàng </label><br>
+                        <label><input type="radio" name="gender" >Xanh Ngọc </label><br>
+                        <label><input type="radio" name="gender" >Hồng Phấn </label>
+                    </label>
+                    <p><b>XUẤT XỨ</b></p>
+                    <label class="xuatxu">
+                        <input type="radio" name="xuatxu">Pháp <br>
+                        <input type="radio" name="xuatxu">Mĩ <br>
+                        <input type="radio" name="xuatxu">Việt Nam<br>
+                        <input type="radio" name="xuatxu">Trung Quốc <br>
+                        <input type="radio" name="xuatxu">Anh <br>
+                        <input type="radio" name="xuatxu">Hàn Quốc <br>
+                    </label>
+                </aside>
+                <article>
+                    <div class="phannuoc">
+                        <p><p>Phấn nước - Cushion (19 sản phẩm)</p>
+                        <p>CocoShop thiên đường mỹ phẩm chính hãng, bạn có thể tìm thấy bất </p>
+                    </div>
+                    <div class="shoes">
+                        <div class="Cushion">
+                        <a href="#">
+                            <img src="img/1.jpg">
+                            <p>Phấn Nước YSL Le Cushion Encre De Peau.</p>
+                            <b class="maudo">1.280.000 đ</b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="img/2.jpg">
+                            <p>Phấn Nước Silkygirl Magic BB Cushion</p>
+                            <b class="maudo">298.000 đ></b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="img/3.jpg">
+                            <p>Phấn Nước Lime Trắng</p>
+                            <b class="maudo">295.000 đ</b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="img/4.png">
+                            <p>Phấn nước Laneige BB Cushion Anti aging..</p>
+                            <b class="maudo">285.000 đ</b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="img/6.jpg">
+                            <p>Phấn nền lạnh AGE 20's Essence Cover...</p>
+                            <b class="maudo">350.000 đ</b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="img/5.jpg">
+                            <p>Phấn Lạnh AGE 20's Essence Cover Pact VX</p>
+                            <b class="maudo">285.000 đ</b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="img/7.PNG">
+                            <p>Phấn Nền Lạnh AGE 20's Signature Essence.</p>
+                            <b class="maudo">750.000 đ</b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="img/8.jpg">
+                            <p>Phấn nước kiềm dầu The Face Shop V201...</p>
+                            <b class="maudo">295.000 đ</b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="">
+                            <p></p>
+                            <b class="maudo"></b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="">
+                            <p></p>
+                            <b class="maudo"></b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="">
+                            <p>E</p>
+                            <b class="maudo"></b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="">
+                            <p></p>
+                            <b class="maudo"></b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="">
+                            <p></p>
+                            <b class="maudo"></b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="">
+                            <p></p>
+                            <b class="maudo"></b>
+                        </a>
+                    </div>
+                    <div class="Cushion">
+                        <a href="#">
+                            <img src="">
+                            <p></p>
+                            <b class="maudo"></b>
+                        </a>
+                    </div>
+                </div>
+                    <table border="0" align="right">
+                        <a href="sanpham.html">
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>...</td>
+                            <td>10</td>
+                            <td>>>></td>
+                        </tr>
+                    </a>
+                    </table>
+
+                    </article>
+                    <footer>
+                        <div class="lienhe footer-item">
+                            <h3>
+                                HỆ THỐNG CỬA HÀNG</h3>
+                            <img src="img/F1.png">
+                            <img src="img/f2.png">
+                            <img src="img/f3.png">
+                            
+                        </div>
+                        <div class="product footer-item">
+                            <div class="product3">
+                                <p>COCO SHOP là hệ thống mỹ phẩm chính hãng và uy tín có quy mô lớn số 1 Việt Nam,đa dạng các loại mỹ phẩm đến từ các hãng nổi tiếng trên toàn thế giới,,,Đến  với COCOSHOP các bạn có quyền được yên tâm khi mua sắm cũng như được đáp ứng mọi nhu cầu về làm đẹp. Với phương châm luôn nỗ lực vì khách hàng thân yêu, COCOSHOP không ngừng cố gắng để xứng đáng là địa điểm mua săm tin cậy trong lòng các bạn trẻ
+
+                                    Trực thuộc Công ty TNHH Thương mại và đầu tư xuất nhập khẩu Việt Nam 
+                                    Địa chỉ : Số 10, ngõ 59 Hoàng Cầu, P. Ô Chợ Dừa, Q. Đống Đa, Tp. Hà Nội
+                                    Phone: +84915156485
+                                    © Bản quyền thuộc về Coco Shop - Chuỗi cửa hàng mỹ phẩm chính hãng làm đẹp. </p>
+                        </div>
+                        </div>
+                       
+                    </footer>
+                    
+
+    </body>
+</html>
